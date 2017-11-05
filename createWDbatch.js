@@ -45,6 +45,7 @@ const cfg = {
     out.push( 
 `CREATE
 LAST	P17	Q183
+LAST	P31	Q721747
 LAST	P131	Q3150` );
 
     // add labels and descriptions
