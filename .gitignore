@@ -57,3 +57,7 @@ typings/
 # dotenv environment variables file
 .env
 
+/data/res_wikidataBatch.txt
+/data/res_wikidataId.tsv
+/data/res_geoloc.tsv
+/data/adressen.csv
