@@ -5,6 +5,7 @@
 
 * http://dbm.neuro.uni-jena.de/gedenktafel/
 * https://github.com/Daniel-Mietchen/ideas/issues/557
+* https://opendata.jena.de/dataset/adressen-verortet
  
 ### Install
 
@@ -16,10 +17,14 @@
  
 ### Running
 
-Run scripts in this order or adapt column index context in sciprts heads:
+Run scripts in this order or adapt column index context in scripts heads.
+Each script returns a TSV file with the following structure.
 
 * `geolocate.js`
+  * structure: `Name | Wikipedia Link | Address Home | Address Plaque | Coordinates Home | Coordinates Plaque`
 * `wikidataId.js`
+  * structure: `Name | Wikipedia Link | Address Home | Address Plaque | Coordinates Home | Coordinates Plaque | Wikidata ID`
 * `createWDbatch.js`
+  * structure: `Wikidata ID | Wikidata Property | Wikidata Value`
 
 Final result will be in `data/res_wikidataBatch.txt` ready to deploy using https://tools.wmflabs.org/wikidata-todo/quick_statements.php
