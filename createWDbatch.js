@@ -195,7 +195,6 @@ LAST	Dde	"${cfg.DESC_DE}"` );
 
         // check for differences
         if( !lat.includes(existEntry.lat) || !lon.includes(existEntry.lon) ) {
-          console.log( existEntry.lat, 'in', lat, ':', lat.includes(existEntry.lat) );
           diff.push( JSON.stringify( [ [lat, lon ], [existEntry.lat, existEntry.lon] ] ) );
           diff.push( `${uri}	P625	${entry[ cfg.COL_PLACE_COORD ]}` );
           diff.push(`${uri}	P969	"${entry[ cfg.COL_PLACE_STR ]}"`);
