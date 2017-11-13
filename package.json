@@ -12,6 +12,7 @@
     "mz": "^2.7.0",
     "papaparse": "^4.3.6",
     "request": "^2.83.0",
-    "request-promise": "^4.2.2"
+    "request-promise": "^4.2.2",
+    "wikidata-sdk": "^5.3.1"
   }
 }
